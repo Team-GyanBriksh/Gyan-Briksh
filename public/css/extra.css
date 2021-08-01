@@ -1,0 +1,143 @@
+.a
+{text-decoration: none;} 
+body{
+    margin:  0;
+    padding: 0;
+    background: url(tree.png);
+    background-size: cover;
+    background-position:top;
+font-family: sans-serif ;
+}
+.loginbox{
+    width:320px;
+    height:420px;
+    background: #fff;
+   
+    top: 63%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding:50px 30px ;
+    
+}
+.register{
+    width:520px;
+    height:420px;
+    background: #fff;
+    color: rgb(5, 3, 3) ;
+    top: 63%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding:50px 30px ;
+    
+}
+
+.avatar{
+    width:100px ;
+    height:100px;
+    
+    position: absolute;
+   top:-50px;
+    left: 35%;
+}
+.google{
+    width:45px ;
+    height:45px;
+    
+    position: absolute;
+    top:299px;
+    left: 10%;
+}
+.facebook{
+    width:45px ;
+    height:45px;
+    
+    position: absolute;
+    top:299px;
+    left: 43%;
+}
+.twitter{
+    width:45px ;
+    height:45px;
+    
+    position: absolute;
+    top:299px;
+    right: 10%;
+}
+
+
+.loginbox input[type="text"], input[type="password"]
+{
+    border:none;
+border-bottom: 1px solid rgb(255, 148, 9);
+outline: none;
+
+}
+.loginbox input[type="submit"]
+{
+    border: none;
+    background: #2874f0;
+    color: #fff;
+    font-size: 18px;
+    
+
+}
+
+.loginbox input[type="submit"]:hover
+{
+    border: none;
+    background: #fff;
+    color: #2874F0;
+    font-size: 18px;
+
+}
+
+.loginbox a
+{
+text-decoration:none;
+font-size: smaller;
+line-height: 5x;
+color:rgb(122, 112, 112);
+
+}
+.register{
+    width:520px;
+    height:420px;
+    background: #fff;
+    color: rgb(0, 0, 0) ;
+    top: 63%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding:50px 30px ;
+    
+}
+.register a
+{
+text-decoration:none;
+font-size: smaller;
+line-height: 5x;
+color:rgb(122, 112, 112);
+
+}
+.register input[type="text"], input[type="password"]
+{
+    border:none;
+border-bottom: 1px solid rgb(255, 148, 9);
+outline: none;
+
+}
+.register input[type="submit"]
+{
+    border: none;
+    background: #2874f0;
+    color: #fff;
+    font-size: 18px;
+    
+    
+
+}

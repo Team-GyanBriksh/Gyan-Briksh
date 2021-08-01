@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROFILE</title>
+</head>
+<body>
+
+<center><h1>MY DETAILS</h1></center>
+
+    {{#each data}}
+       <h4>FIRSTNAME</h4>
+        {{this.firstName}}
+        <br><br>
+        <h4>LASTNAME</h4>
+            {{this.lastName}}
+        <br><br>
+        <h4>GENDER</h4>
+        {{this.gender}}
+        <br><br>
+        <h4>DATE OF BIRTH</h4>
+        {{this.dob}}
+        <br><br>
+        <h4>EMAIL</h4>
+            {{this.email}}
+        <br><br>
+       
+     
+    {{/each}}
+<body>
+</html>
